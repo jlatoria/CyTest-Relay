@@ -1,6 +1,8 @@
+#include <LiquidCrystal_I2C.h>
+
 //constant holding the value of the desired pin used in place of the mechanical switch
 #define ACTPIN 2
-#include <LiquidCrystal_I2C.h>
+
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
